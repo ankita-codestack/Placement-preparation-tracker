@@ -1,16 +1,60 @@
-# React + Vite
+# 🎯 Placement Preparation Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A unified, student-friendly web application designed to help college students organize, manage, and track their campus and off-campus placement preparation in one centralized dashboard.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** [View Live Application](YOUR_LIVE_VERCEL_LINK_HERE)  
+📂 **Repository:** [ankita-codestack/Placement-preparation-tracker](https://github.com/ankita-codestack/Placement-preparation-tracker)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 📌 Problem Statement
+During placement season, students often juggle multiple platforms—spreadsheets for company applications, coding platforms for DSA, PDFs for aptitude, and scattered notebooks for core computer science subjects. **Placement Preparation Tracker** solves this fragmentation by bringing every pillar of placement readiness into a single, interactive interface with real-time progress tracking.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Key Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **📊 Unified Readiness Dashboard**
+   - Real-time weighted **Placement Readiness Score** calculated dynamically across DSA, Core CS, Aptitude, and daily study tasks.
+   - Daily study streak tracker with one-click check-in and high-priority focus tasks.
+2. **💻 DSA Tracker & Revision Queue**
+   - Topic-wise mastery breakdown (Arrays, Two Pointers, Trees, Graphs, Dynamic Programming, etc.).
+   - Search and multi-filter problem log (by topic, difficulty, and status).
+   - One-click status cycling (`Todo` → `Revisit` → `Solved`) for spaced-repetition revision.
+3. **🧠 Aptitude Preparation**
+   - Dedicated syllabus checklists and accuracy tracking for **Quantitative Aptitude**, **Logical Reasoning**, and **Verbal Ability**.
+   - Online Assessment (OA) & mock test score logger.
+4. **🖥️ Core CS Subjects & Cheat Sheets**
+   - Module checklists for **DBMS**, **Operating Systems (OS)**, **OOPs**, **Computer Networks (CN)**, and **LLD/HLD Basics**.
+   - Built-in editable last-minute revision notes for quick pre-interview brush-ups.
+5. **📅 Daily Study Planner & Consistency Tracker**
+   - Task manager with category tags (`DSA`, `Core CS`, `Aptitude`, `Resume`) and priority levels.
+   - Weekly study hours visualization chart to monitor daily consistency.
+6. **🏢 Company Application Tracker**
+   - End-to-end pipeline tracking across stages (`Wishlist`, `Applied`, `OA Scheduled`, `Technical Round`, `HR Round`, `Offer`, `Rejected`) with CTC, interview dates, and prep notes.
+
+---
+
+## 🛠️ Technology Stack
+
+### Current Prototype (Frontend)
+- **Framework:** React.js (Vite)
+- **Styling:** Tailwind CSS
+- **Icons:** Lucide React
+- **Deployment:** Vercel
+
+### Planned Full-Stack Architecture (MERN)
+- **Frontend:** React.js
+- **Backend:** Node.js + Express.js (REST APIs)
+- **Database:** MongoDB (User profiles, DSA logs, study tasks & company records)
+
+---
+
+## 🚀 Run Locally
+
+To run this project on your local machine:
+
+1. **Clone the repository**
+   ```bash
+   git clone [https://github.com/ankita-codestack/Placement-preparation-tracker.git](https://github.com/ankita-codestack/Placement-preparation-tracker.git)
+   cd Placement-preparation-tracker
